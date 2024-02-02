@@ -1,5 +1,5 @@
 ---
-layout: 'page.webc'
+layout: 'nunjucks-layout.njk'
 ---
 
 This template uses:

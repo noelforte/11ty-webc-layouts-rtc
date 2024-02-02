@@ -1,4 +1,4 @@
 {
-	"layout": "page",
+	"layout": "nunjucks-layout",
 	"permalink": "/{{ page.fileSlug }}/index.html"
 }
