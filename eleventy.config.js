@@ -1,6 +1,6 @@
-import webcPlugin from '@11ty/eleventy-plugin-webc';
+const webcPlugin = require('@11ty/eleventy-plugin-webc');
 
-export default function (eleventyConfig) {
+module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(webcPlugin);
 
 	return {
@@ -9,4 +9,4 @@ export default function (eleventyConfig) {
 			output: '_site',
 		},
 	};
-}
+};

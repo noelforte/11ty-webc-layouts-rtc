@@ -1,11 +1,11 @@
 ---
-layout: 'nunjucks-layout.njk'
+layout: 'nunjucks-layout'
 ---
 
-This template uses:
+This template uses a layout without an extension
 
 ```
 ---
-layout: 'page'
+layout: 'nunjucks-layout'
 ---
 ```
