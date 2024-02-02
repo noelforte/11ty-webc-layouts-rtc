@@ -1,0 +1,6 @@
+---
+layout: layout.njk
+---
+
+<h2>This is a title of the page template</h2>
+<section @raw="content"></section>
